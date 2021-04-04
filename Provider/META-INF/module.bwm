@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:rest="http://xsd.tns.tibco.com/bw/models/binding/rest" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_6EZWkHakEeuDpNqJBLs_WA" targetNamespace="http://tns.tibco.com/bw/composite/Provider" name="Provider" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_OZdLMHalEeuDpNqJBLs_WA" name="provider" promote="ComponentProvider/provider">
+    <sca:interface.wsdl xmi:id="_OZm8MHalEeuDpNqJBLs_WA" interface="http://xmlns.example.com/20210224223556PLT#wsdl.interface(provider)" scaext:wsdlLocation="../Processes/provider/Provider.bwp"/>
+    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_OZwGIHalEeuDpNqJBLs_WA" name="RestService" path="/provider" docBasePath="http://localhost:7777/Provider" docResourcePath="Provider" basePath="/" connector="provider.Provider" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/provider.Provider-Provider.json">
+      <operation xmi:id="_OZxUQHalEeuDpNqJBLs_WA" operationName="get" nickname="get-provider" httpMethod="GET" notes="getProvider" responseStyle="element" outputPartName="item">
+        <parameters xmi:id="_SEhHsHalEeuDpNqJBLs_WA">
+          <parameterMapping xmi:id="_SEhHsXalEeuDpNqJBLs_WA" parameterName="RequestID" parameterType="Query" dataType="string"/>
+        </parameters>
+        <clientFormat>json</clientFormat>
+        <clientRequestFormat>json</clientRequestFormat>
+      </operation>
+      <parameters xmi:id="_OZ7sUHalEeuDpNqJBLs_WA"/>
+      <advancedConfig xmi:id="_OZwGIXalEeuDpNqJBLs_WA" blockingQueueSize="2147483647"/>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_OZxUQXalEeuDpNqJBLs_WA" bindingName="RestService"/>
+  </sca:service>
+  <sca:property xmi:id="_6S9XAHakEeuDpNqJBLs_WA" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_6TErwHakEeuDpNqJBLs_WA" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_6TF54HakEeuDpNqJBLs_WA" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_6THIAHakEeuDpNqJBLs_WA" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_6TIWIHakEeuDpNqJBLs_WA" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_6TKLUHakEeuDpNqJBLs_WA" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_6TLZcHakEeuDpNqJBLs_WA" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_6TNOoHakEeuDpNqJBLs_WA" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_6TPD0HakEeuDpNqJBLs_WA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_jObO8HalEeuDpNqJBLs_WA" name="PROVIDER_PORT" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_R6gL4HasEeuDpNqJBLs_WA" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:component xmi:id="_OZUBQHalEeuDpNqJBLs_WA" name="ComponentProvider" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_OZUBQXalEeuDpNqJBLs_WA" processName="provider.Provider"/>
+    <sca:service xmi:id="_OZY5wHalEeuDpNqJBLs_WA" name="provider">
+      <sca:interface.wsdl xmi:id="_OZaH4HalEeuDpNqJBLs_WA" interface="http://xmlns.example.com/20210224223556PLT#wsdl.interface(provider)" scaext:wsdlLocation="../Processes/provider/Provider.bwp"/>
+    </sca:service>
+  </sca:component>
+</sca:composite>

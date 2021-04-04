@@ -1,0 +1,51 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Provider",
+    "description" : "Provider service"
+  },
+  "host" : "0.0.0.0:8080",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/provider" : {
+      "get" : {
+        "summary" : "getProvider",
+        "description" : "getProvider",
+        "operationId" : "get-provider",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "RequestID",
+          "in" : "query",
+          "description" : "",
+          "type" : "string",
+          "required" : false
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "a Response to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/Response"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Response" : {
+      "type" : "object",
+      "required" : [ "Provider_Version" ],
+      "properties" : {
+        "Provider_Version" : {
+          "type" : "string"
+        },
+        "Message" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}
