@@ -9,6 +9,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 //git 'https://chungsju:king2331@github.com/chungsju/BWCICD.git'
+                echo "test"
             }
         }
         stage('Test') {
