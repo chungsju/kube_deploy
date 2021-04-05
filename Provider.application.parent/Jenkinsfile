@@ -1,18 +1,11 @@
 pipeline {
     agent any
     tools {
-        // Install the Maven version configured as "M3" and add it to the path.
+        // Jenkins 환경설정에서 자동으로 설치한 Maven의 Name
         maven "Maven3"
     }
 	stages {
-        stage('Preparing') {
-            steps {
-                // Get some code from a GitHub repository
-                //git 'https://chungsju:king2331@github.com/chungsju/BWCICD.git'
-                echo "test"
-            }
-        }
-        stage('Test') {
+        stage('SCM Check out test') {
             steps {
                sh "ls -al"
             }
