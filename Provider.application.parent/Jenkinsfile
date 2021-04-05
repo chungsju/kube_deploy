@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools {
+    tools { 
         // Jenkins 환경설정에서 자동으로 설치한 Maven의 Name
         maven "Maven3"
     }
