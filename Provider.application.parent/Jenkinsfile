@@ -10,14 +10,19 @@ pipeline {
                sh "ls -al"
             }
         }
+        stage('Generate Process Diagram') {
+            steps {
+                 sh "mvn clean com.tibco.plugins:bw6-maven-plugin:bwdesignUtility -f Provider.application.parent/pom.xml"
+            }
+        }
         stage('Clean & Package') {
             steps {
-                 sh "mvn clean package -f Provider.application.parent/pom.xml"
+                 sh "mvn package -f Provider.application.parent/pom.xml"
             }
         }
         stage('Docker Image Build') {
             steps {
-                 sh "mvn clean package initialize docker:build -f Provider.application.parent/pom.xml"
+                 sh "mvn package initialize docker:build -f Provider.application.parent/pom.xml"
             }
         }
         stage('Docker Image push') {
