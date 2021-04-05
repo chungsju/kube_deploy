@@ -28,7 +28,7 @@ pipeline {
             steps {
                  dir("Provider.application.parent") {
                		// setting.xml 환경설정파일 참조 
-                 	sh "mvn initialize docker:push -s Provider.application.parent/setting.xml"
+                 	sh "mvn initialize docker:push -s setting.xml"
                	}
             }
         }
