@@ -1,0 +1,46 @@
+pipeline {
+    agent any
+    tools {
+        // Install the Maven version configured as "M3" and add it to the path.
+        maven "Maven3"
+    }
+	stages {
+        stage('Preparing') {
+            steps {
+                // Get some code from a GitHub repository
+                //git 'https://chungsju:king2331@github.com/chungsju/BWCICD.git'
+            }
+        }
+        stage('Test') {
+            steps {
+               sh "ls -al"
+            }
+        }
+        stage('Clean & Package') {
+            steps {
+                 sh "mvn clean package -f Provider.applicatioin.parent/pom.xml"
+            }
+        }
+        stage('Docker Image Build') {
+            steps {
+                 sh "mvn clean package initialize docker:build -f Provider.applicatioin.parent/pom.xml"
+            }
+        }
+        stage('Docker Image push') {
+            steps {
+                 // setting.xml 환경설정파일 참조 
+                 sh "mvn initialize docker:push  -f Provider.applicatioin.parent/pom.xml -s Provider.applicatioin.parent/setting.xml"
+            }
+        }
+        stage('Kubernetes Resource') {
+            steps {
+                 sh "mvn initialize com.tibco.plugins:bw6-maven-plugin:bwfabric8json fabric8:resource  -f Provider.applicatioin.parent/pom.xml"
+            }
+        }
+        stage('Kubernetes Apply') {
+            steps {
+                 sh "mvn  initialize fabric8:apply  -f Provider.applicatioin.parent/pom.xml"
+            }
+        }
+    }
+}

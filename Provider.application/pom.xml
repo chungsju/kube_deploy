@@ -13,7 +13,7 @@
   <properties>
     <skipTests>true</skipTests>
     <bw.Home>/bwce/2.6</bw.Home>
-    <docker.env.property.file>/Users/jeongseungjae/git/bwce_provider_consumer_CICD/Provider.application/docker-host-env-dev.properties</docker.env.property.file>
+    <docker.env.property.file>Provider.application/docker-host-env-dev.properties</docker.env.property.file>
     <project.type>Docker</project.type>
     <k8s.property.file>k8s-dev.properties</k8s.property.file>
     <failIfNoTests>false</failIfNoTests>
