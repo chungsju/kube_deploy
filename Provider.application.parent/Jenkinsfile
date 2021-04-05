@@ -10,40 +10,41 @@ pipeline {
                sh "ls -al"
             }
         }
-        stage('Change Directory') {
-            steps {
-               sh "cd Provider.application.parent"
-            }
-        }
-        stage('SCM Check out test2') {
-            steps {
-               sh "ls -al"
-            }
-        }
         stage('Clean & Package') {
             steps {
-                 sh "mvn clean package"
+                dir("Provider.application.parent") {
+               		 sh "mvn clean package"
+               	}
             }
         }
         stage('Docker Image Build') {
             steps {
-                 sh "mvn package initialize docker:build"
+            	 dir("Provider.application.parent") {
+               		 sh "mvn package initialize docker:build"
+               	}
             }
         }
         stage('Docker Image push') {
             steps {
-                 // setting.xml 환경설정파일 참조 
-                 sh "mvn initialize docker:push -s Provider.application.parent/setting.xml"
+                 dir("Provider.application.parent") {
+               		// setting.xml 환경설정파일 참조 
+                 	sh "mvn initialize docker:push -s Provider.application.parent/setting.xml"
+               	}
             }
         }
         stage('Kubernetes Resource') {
             steps {
-                 sh "mvn initialize com.tibco.plugins:bw6-maven-plugin:bwfabric8json fabric8:resource"
+                 dir("Provider.application.parent") { 
+                 	sh "mvn initialize com.tibco.plugins:bw6-maven-plugin:bwfabric8json fabric8:resource"
+               	} 
             }
         }
         stage('Kubernetes Apply') {
             steps {
-                 sh "mvn  initialize fabric8:apply"
+                  dir("Provider.application.parent") {
+                 	   sh "mvn  initialize fabric8:apply"
+               	}
+             
             }
         }
     }
