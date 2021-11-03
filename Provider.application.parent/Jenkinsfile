@@ -41,7 +41,7 @@ pipeline {
         }
         stage('Kubernetes Apply') {
             steps {
-                  dir("Provider.application.parent") {
+                  dir("Provider.application") {
 //                 	   sh "mvn  initialize fabric8:apply"
                        sh "git add target/classes/META-INF/fabric8/kubernetes/"
                        //sh "git add target/classes/META-INF/fabric8/kubernetes/"
