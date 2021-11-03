@@ -15,14 +15,12 @@ spec:
         imagePullPolicy: Always
         name: provider
         env:
-        - name: BW_APP_MONITORING_CONFIG
-          value: '{"url":"http://bwce-mon-svc:8080"}'
-        - name: PROVIDER_PORT
-          value: '8000'
         - name: APP_CONFIG_PROFILE
           value: docker
         - name: BW_PROFILE
           value: Docker
+        - name: PROVIDER_PORT
+          value: '8000'
         ports:
         - containerPort: 8000
   replicas: 1
