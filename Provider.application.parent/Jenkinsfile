@@ -47,7 +47,7 @@ pipeline {
                        //sh "git add target/classes/META-INF/fabric8/kubernetes/"
                        sh "git config --global user.email 'chungsju@gmail.com'"
                        sh "git commit -m jenkins_build"
-                       sh "git push --set-upstream"
+                       sh "git push https://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@github.com/chungsju/Provider_CICD.git --set-upstream"
                	}
              
             }
