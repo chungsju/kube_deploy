@@ -47,7 +47,12 @@ pipeline {
                        //sh "git add target/classes/META-INF/fabric8/kubernetes/"
                        sh "git config --global user.email 'chungsju@gmail.com'"
                        sh "git commit -m jenkins_build"
-                       sh "git push https://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@github.com/chungsju/Provider_CICD.git HEAD:master --set-upstream"
+                       withCredentials([usernamePassword(credentialsId: 'git-pass-credentials-ID', passwordVariable: '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', usernameVariable: 'chungsju@gmail.com')]) {
+					
+						    sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/chungsju/Provider_CICD.git HEAD:master')
+						}
+                       
+                       //sh "git push https://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@github.com/chungsju/Provider_CICD.git HEAD:master --set-upstream"
                	}
              
             }
