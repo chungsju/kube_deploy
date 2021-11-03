@@ -1576,3 +1576,1263 @@ java.lang.IllegalStateException: BundleContext is no longer valid
 	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
 	at java.lang.Thread.run(Thread.java:748)
+!SESSION 2021-11-04 01:42:11.713 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -application com.tibco.bw.core.design.project.BwDesignApplication import /Users/jeongseungjae/git/Provider_CICD
+Command-line arguments:  -application com.tibco.bw.core.design.project.BwDesignApplication -ws cocoa -data /Users/jeongseungjae/git/Provider_CICD import /Users/jeongseungjae/git/Provider_CICD
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2021-11-04 01:42:12.654
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2021-11-04 01:42:12.656
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2021-11-04 01:42:12.658
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2021-11-04 01:42:12.659
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.944
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.947
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.947
+!MESSAGE Both 'com.tibco.bw.it.model' and 'com.tibco.bw.it.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.949
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.949
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.950
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.951
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.951
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.958
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.959
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.959
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:12.960
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-11-04 01:42:13.080
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.860
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.864
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.867
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.870
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.871
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.873
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.875
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.877
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.878
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.880
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.881
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.883
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.885
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.886
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.887
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.889
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.890
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.892
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.893
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.895
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.896
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.898
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.899
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.901
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.903
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.905
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.906
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.909
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.910
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.912
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.914
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.916
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.917
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.938
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.939
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.940
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.942
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.944
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.945
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.947
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.948
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.950
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.952
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.953
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.954
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.956
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.958
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.960
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.961
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.963
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.965
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.966
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.967
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.968
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.970
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.971
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.972
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.974
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.976
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.977
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.978
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.980
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.981
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.982
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:20.983
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:20.985
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:21.009
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:21.010
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:21.021
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:21.022
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:22.914
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.HasOneStoreConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:22.914
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyAliasNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:22.914
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyPasswordNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:22.915
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.trust.editor.constraint" could not find target EMF type "TrustConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:23.314
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
+
+!ENTRY org.eclipse.bpel.validator 1 0 2021-11-04 01:42:23.587
+!MESSAGE Validator Startup 27ms
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.665
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [pick]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.665
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.665
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.678
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [OnMessageStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.678
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.679
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.679
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [OnMessageEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.679
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.679
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.679
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [getOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.680
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:23.680
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.studio.maven.plugin 1 0 2021-11-04 01:42:24.111
+!MESSAGE Kind:6, Project:Provider
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:24.197
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:24.199
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:24.201
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:24.202
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-11-04 01:42:25.549
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.equinox.internal.p2.core.Activator.stop() of bundle org.eclipse.equinox.p2.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:847)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:983)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:559)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:497)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:879)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1075)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.stop(ProvisioningAgent.java:134)
+	at org.eclipse.equinox.internal.p2.core.Activator.unregisterAgent(Activator.java:262)
+	at org.eclipse.equinox.internal.p2.core.Activator.stop(Activator.java:248)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	... 13 more
+Root exception:
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:983)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:559)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:497)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:879)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1075)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.stop(ProvisioningAgent.java:134)
+	at org.eclipse.equinox.internal.p2.core.Activator.unregisterAgent(Activator.java:262)
+	at org.eclipse.equinox.internal.p2.core.Activator.stop(Activator.java:248)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Thread.java:748)
+!SESSION 2021-11-04 01:42:25.918 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -application com.tibco.bw.core.design.project.BwDesignApplication validate Provider.application.parent,Provider,Provider.application
+Command-line arguments:  -application com.tibco.bw.core.design.project.BwDesignApplication -ws cocoa -data /Users/jeongseungjae/git/Provider_CICD validate Provider.application.parent,Provider,Provider.application
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2021-11-04 01:42:26.719
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2021-11-04 01:42:26.719
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2021-11-04 01:42:26.721
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2021-11-04 01:42:26.721
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.913
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.915
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.915
+!MESSAGE Both 'com.tibco.bw.it.model' and 'com.tibco.bw.it.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.918
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.920
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.922
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.923
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.924
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.930
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.931
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.931
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:26.931
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-11-04 01:42:27.030
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.541
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.548
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.551
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.556
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.558
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.560
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.563
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.565
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.568
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.570
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.572
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.574
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.575
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.577
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.579
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.581
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.582
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.584
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.585
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.587
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.588
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.590
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.592
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.593
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.595
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.597
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.598
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.600
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.602
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.603
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.605
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.607
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.609
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.626
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.628
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.629
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.631
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.632
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.634
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.635
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.637
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.638
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.640
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.642
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.643
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.646
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.647
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.649
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.651
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.652
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.654
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.656
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.658
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.659
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.663
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.664
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.666
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.669
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.671
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.673
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.675
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.676
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.677
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.679
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.680
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:33.683
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.739
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.740
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.749
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:33.750
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:35.512
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.HasOneStoreConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:35.513
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyAliasNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:35.513
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyPasswordNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:35.513
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.trust.editor.constraint" could not find target EMF type "TrustConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:35.932
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
+
+!ENTRY org.eclipse.bpel.validator 1 0 2021-11-04 01:42:36.227
+!MESSAGE Validator Startup 32ms
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.305
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [pick]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.306
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.306
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.321
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [OnMessageStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.321
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.321
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.321
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [OnMessageEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.321
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.322
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.322
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [getOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.322
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:36.322
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.studio.maven.plugin 1 0 2021-11-04 01:42:36.727
+!MESSAGE Kind:6, Project:Provider
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:36.816
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:36.818
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:36.821
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:36.822
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.255
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [pick]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.255
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.256
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.256
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [OnMessageStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.256
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.256
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.257
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [OnMessageEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.257
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.257
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.257
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [getOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.258
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:37.258
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:37.359
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:37.361
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:37.364
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:37.366
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:37.369
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:37.371
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-04 01:42:38.836
+!MESSAGE An internal error occurred during: "Sync Module Properties for Project [Provider]".
+!STACK 0
+java.lang.NullPointerException
+	at com.tibco.zion.dc.builder.ModulePropertyBuilder$SyncModulePropertiesJob.isBweSaveInProgress(ModulePropertyBuilder.java:175)
+	at com.tibco.zion.dc.builder.ModulePropertyBuilder$SyncModulePropertiesJob.runInWorkspace(ModulePropertyBuilder.java:161)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-11-04 01:42:38.954
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.equinox.internal.p2.core.Activator.stop() of bundle org.eclipse.equinox.p2.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:847)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:983)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:559)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:497)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:879)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1075)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.stop(ProvisioningAgent.java:134)
+	at org.eclipse.equinox.internal.p2.core.Activator.unregisterAgent(Activator.java:262)
+	at org.eclipse.equinox.internal.p2.core.Activator.stop(Activator.java:248)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	... 13 more
+Root exception:
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:983)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:559)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:497)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:879)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1075)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.stop(ProvisioningAgent.java:134)
+	at org.eclipse.equinox.internal.p2.core.Activator.unregisterAgent(Activator.java:262)
+	at org.eclipse.equinox.internal.p2.core.Activator.stop(Activator.java:248)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Thread.java:748)
+!SESSION 2021-11-04 01:42:39.372 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -application com.tibco.bw.core.design.project.BwDesignApplication diagram:gen_diagrams Provider.application
+Command-line arguments:  -application com.tibco.bw.core.design.project.BwDesignApplication -ws cocoa -data /Users/jeongseungjae/git/Provider_CICD diagram:gen_diagrams Provider.application
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2021-11-04 01:42:40.159
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2021-11-04 01:42:40.160
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2021-11-04 01:42:40.162
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2021-11-04 01:42:40.162
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.331
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.334
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.334
+!MESSAGE Both 'com.tibco.bw.it.model' and 'com.tibco.bw.it.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.335
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.336
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.337
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.337
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.338
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.347
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.348
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.348
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-11-04 01:42:40.348
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-11-04 01:42:40.427
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.572
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.584
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.587
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.603
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.605
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.607
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.627
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.630
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.632
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.635
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.637
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.639
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.642
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.644
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.647
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.649
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.652
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.654
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.657
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.659
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.661
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.672
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.674
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.676
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.678
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.680
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.681
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.689
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.691
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.693
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.704
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.706
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.708
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.731
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.733
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.735
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.737
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.739
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.741
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.743
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.745
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.747
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.750
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.751
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.753
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.756
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.758
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.760
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.762
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.764
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.766
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.768
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.770
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.771
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.773
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.775
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.776
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.778
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.780
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.782
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.784
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.786
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.787
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.791
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.793
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2021-11-04 01:42:46.794
+!MESSAGE Encryption setings are not available for project - Provider.application
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.829
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.831
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.839
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:46.840
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:49.065
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.HasOneStoreConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:49.065
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyAliasNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:49.066
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyPasswordNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:49.066
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.trust.editor.constraint" could not find target EMF type "TrustConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2021-11-04 01:42:49.253
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
+
+!ENTRY org.eclipse.bpel.validator 1 0 2021-11-04 01:42:49.536
+!MESSAGE Validator Startup 21ms
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.608
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [pick]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.608
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.608
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.624
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [OnMessageStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.625
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.625
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.625
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [OnMessageEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.625
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.625
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.626
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [provider.Provider], Activity [getOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.626
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2021-11-04 01:42:49.626
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.studio.maven.plugin 1 0 2021-11-04 01:42:49.980
+!MESSAGE Kind:6, Project:Provider
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:50.059
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:50.061
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:50.064
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2021-11-04 01:42:50.065
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-11-04 01:42:51.389
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.equinox.internal.p2.core.Activator.stop() of bundle org.eclipse.equinox.p2.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:847)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:983)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:559)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:497)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:879)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1075)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.stop(ProvisioningAgent.java:134)
+	at org.eclipse.equinox.internal.p2.core.Activator.unregisterAgent(Activator.java:262)
+	at org.eclipse.equinox.internal.p2.core.Activator.stop(Activator.java:248)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	... 13 more
+Root exception:
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:983)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:559)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:497)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:879)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1075)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.stop(ProvisioningAgent.java:134)
+	at org.eclipse.equinox.internal.p2.core.Activator.unregisterAgent(Activator.java:262)
+	at org.eclipse.equinox.internal.p2.core.Activator.stop(Activator.java:248)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Thread.java:748)

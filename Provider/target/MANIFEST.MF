@@ -1,4 +1,4 @@
-Manifest-Version: 1.0.0.202111040053
+Manifest-Version: 1.0.0.202111040143
 Bundle-SymbolicName: Provider
 Bundle-ManifestVersion: 2
 TIBCO-BW-Edition: bwcf
@@ -10,7 +10,7 @@ Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tib
 TIBCO-BW-ConfigProfile: META-INF/default.substvar
 TIBCO-BW-Version: 6.7.0 V34 2020-11-06
 Bundle-Name: Provider Module
-Bundle-Version: 1.0.0.202111040053
+Bundle-Version: 1.0.0.202111040143
 Bundle-ClassPath: .
 TIBCO-BW-ApplicationModule: META-INF/module.bwm
 TIBCO-BW-JobSharedVariables: META-INF/module.jsv
