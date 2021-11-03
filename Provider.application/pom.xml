@@ -13,7 +13,7 @@
   <properties>
     <skipTests>true</skipTests>
     <project.type>Docker</project.type>
-    <docker.env.property.file>/Users/jeongseungjae/git/Provider_CICD/Provider.application/docker-host-env-dev.properties</docker.env.property.file>
+    <docker.env.property.file>../Provider.application/docker-host-env-dev.properties</docker.env.property.file>
     <bw.Home>/bwce/2.6</bw.Home>
     <k8s.property.file>k8s-dev.properties</k8s.property.file>
     <docker.property.file>docker-dev.properties</docker.property.file>
