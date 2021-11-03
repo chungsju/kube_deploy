@@ -52,7 +52,7 @@ pipeline {
 						//    sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/chungsju/Provider_CICD.git HEAD:master')
 						//}
                         
-                       sh "git push https://chungsju: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@github.com/chungsju/Provider_CICD.git HEAD:master --set-upstream"
+                       sh "git push https://chungsju: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@github.com/chungsju/Provider_CICD.git HEAD:master --set-upstream"
                	}
              
             }
