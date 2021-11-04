@@ -3,8 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fabric8.io/git-commit: aeb3594d95884c8c750a380a82fa8d9c765f962f
-    fabric8.io/git-branch: aeb3594d95884c8c750a380a82fa8d9c765f962f
+    fabric8.io/git-commit: ef637197265759ea2b2d216d1aa56bf2a4030718
+    fabric8.io/git-branch: ef637197265759ea2b2d216d1aa56bf2a4030718
     fabric8.io/git-url: https://github.com/chungsju/Consumer_CICD.git
   labels:
     app: Consumer.application
@@ -14,7 +14,7 @@ metadata:
   name: consumer
   namespace: default
 spec:
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 2
   selector:
     matchLabels:
@@ -24,8 +24,8 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: aeb3594d95884c8c750a380a82fa8d9c765f962f
-        fabric8.io/git-branch: aeb3594d95884c8c750a380a82fa8d9c765f962f
+        fabric8.io/git-commit: ef637197265759ea2b2d216d1aa56bf2a4030718
+        fabric8.io/git-branch: ef637197265759ea2b2d216d1aa56bf2a4030718
         fabric8.io/git-url: https://github.com/chungsju/Consumer_CICD.git
       labels:
         container: consumer
