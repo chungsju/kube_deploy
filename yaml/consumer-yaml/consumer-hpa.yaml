@@ -1,0 +1,31 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  creationTimestamp: "2021-11-04T13:12:13Z"
+  managedFields:
+  - apiVersion: autoscaling/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:spec:
+        f:maxReplicas: {}
+        f:minReplicas: {}
+        f:scaleTargetRef: {}
+        f:targetCPUUtilizationPercentage: {}
+    manager: kubectl
+    operation: Update
+    time: "2021-11-04T13:12:13Z"
+  name: consumer
+  namespace: default
+  resourceVersion: "204837"
+  uid: acba9516-06ab-46fc-979a-b5b122dee8c7
+spec:
+  maxReplicas: 8
+  minReplicas: 2
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: consumer
+  targetCPUUtilizationPercentage: 50
+status:
+  currentReplicas: 0
+  desiredReplicas: 0
