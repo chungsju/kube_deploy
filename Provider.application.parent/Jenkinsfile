@@ -50,6 +50,7 @@ pipeline {
    
 						    sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/chungsju/kube_deploy.git HEAD:master')
 						}
+             //ghp_mpktfpXDRJN/*이건 패스워드*/ZFOuD95w35PyjNL0U3x1QHEGF
             }
         }
     }
