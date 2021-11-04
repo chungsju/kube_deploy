@@ -3,8 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fabric8.io/git-commit: 7f092476c2a38d2132f052feb3f0be5e309c98db
-    fabric8.io/git-branch: 7f092476c2a38d2132f052feb3f0be5e309c98db
+    fabric8.io/git-commit: 43e2a479abc31b5db4b072bfd2020b38f8284691
+    fabric8.io/git-branch: 43e2a479abc31b5db4b072bfd2020b38f8284691
     fabric8.io/git-url: https://github.com/chungsju/Consumer_CICD.git
   labels:
     app: Consumer.application
@@ -24,8 +24,8 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: 7f092476c2a38d2132f052feb3f0be5e309c98db
-        fabric8.io/git-branch: 7f092476c2a38d2132f052feb3f0be5e309c98db
+        fabric8.io/git-commit: 43e2a479abc31b5db4b072bfd2020b38f8284691
+        fabric8.io/git-branch: 43e2a479abc31b5db4b072bfd2020b38f8284691
         fabric8.io/git-url: https://github.com/chungsju/Consumer_CICD.git
       labels:
         container: consumer
@@ -55,3 +55,8 @@ spec:
         ports:
         - containerPort: 7000
           name: afs3-fileserver
+        resources:
+          limits:
+            cpu: 1000m
+          requests:
+            cpu: 200m

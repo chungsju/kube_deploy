@@ -3,8 +3,8 @@ apiVersion: v1
 kind: Service
 metadata:
   annotations:
-    fabric8.io/git-commit: 7f092476c2a38d2132f052feb3f0be5e309c98db
-    fabric8.io/git-branch: 7f092476c2a38d2132f052feb3f0be5e309c98db
+    fabric8.io/git-commit: 43e2a479abc31b5db4b072bfd2020b38f8284691
+    fabric8.io/git-branch: 43e2a479abc31b5db4b072bfd2020b38f8284691
     fabric8.io/git-url: https://github.com/chungsju/Consumer_CICD.git
   labels:
     container: consumer
