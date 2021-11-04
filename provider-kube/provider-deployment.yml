@@ -1,0 +1,55 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    fabric8.io/git-commit: 9043bc9396245202ba74e56aa93d3f2e8a397d9d
+    fabric8.io/git-branch: 9043bc9396245202ba74e56aa93d3f2e8a397d9d
+    fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
+  labels:
+    app: Provider.application
+    provider: fabric8
+    version: 1.1.0
+    group: com.tibco.bw
+  name: provider
+  namespace: default
+spec:
+  replicas: 1
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: Provider.application
+      provider: fabric8
+      group: com.tibco.bw
+  template:
+    metadata:
+      annotations:
+        fabric8.io/git-commit: 9043bc9396245202ba74e56aa93d3f2e8a397d9d
+        fabric8.io/git-branch: 9043bc9396245202ba74e56aa93d3f2e8a397d9d
+        fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
+      labels:
+        container: provider
+        project: provider
+        app: Provider.application
+        provider: fabric8
+        version: 1.1.0
+        group: com.tibco.bw
+      name: provider
+      namespace: default
+    spec:
+      containers:
+      - env:
+        - name: BW_APP_MONITORING_CONFIG
+          value: '{"url":"http://bwce-mon-svc:8080"}'
+        - name: PROVIDER_PORT
+          value: "8000"
+        - name: APP_CONFIG_PROFILE
+          value: docker
+        - name: BW_PROFILE
+          value: Docker
+        image: chungsju/provider:1.1.0
+        imagePullPolicy: Always
+        name: provider
+        ports:
+        - containerPort: 8000
+          name: irdmi
