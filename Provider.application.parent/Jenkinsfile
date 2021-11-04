@@ -41,9 +41,9 @@ pipeline {
         }
         stage('Kubernetes Apply') {
             steps {
-//                 	   sh "mvn  initialize fabric8:apply"
+                 	   //sh "mvn  initialize fabric8:apply"
+                 	   git clone https://github.com/chungsju/kube_deploy.git /var/jenkins_home/workspace/kube_deploy/.git
                        sh "git add -f Provider.application/target/classes/META-INF/fabric8/kubernetes/"
-                       //sh "git add target/classes/META-INF/fabric8/kubernetes/"
                        sh "git config --global user.email 'chungsju@gmail.com'"
                        sh "git commit -m jenkins_build"
                        withCredentials([usernamePassword(credentialsId: '4172501e-c084-43bf-bff5-0dac2d1077d1', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
