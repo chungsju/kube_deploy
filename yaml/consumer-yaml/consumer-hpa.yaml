@@ -12,17 +12,9 @@ spec:
   maxReplicas: 10
   behavior:
     scaleDown:
-      stabilizationWindowSeconds: 60
+      stabilizationWindowSeconds: 20
     scaleUp:
-      stabilizationWindowSeconds: 60
-      policies:
-      - type: Percent
-        value: 50
-        periodSeconds: 30
-      - type: Pods
-        value: 2
-        periodSeconds: 30 
-      selectPolicy: Min
+      stabilizationWindowSeconds: 20
   metrics:
     - type: Resource
       resource:
