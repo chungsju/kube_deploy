@@ -3,22 +3,22 @@ apiVersion: v1
 kind: Service
 metadata:
   annotations:
-    fabric8.io/git-commit: bb3deec86887d69cbf72ce7519974c07a2b1a706
-    fabric8.io/git-branch: bb3deec86887d69cbf72ce7519974c07a2b1a706
+    fabric8.io/git-commit: 5051addc111ab5e680cdf653fbec41caad014b47
+    fabric8.io/git-branch: 5051addc111ab5e680cdf653fbec41caad014b47
     fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
   labels:
     container: provider
     provider: fabric8
     project: provider
     group: com.tibco.bw
-    expose: "true"
     app: Provider.application
     version: 1.0.0-SNAPSHOT
   name: provider-svc
   namespace: default
 spec:
   ports:
-  - port: 80
+  - nodePort: 32180
+    port: 8000
     protocol: TCP
     targetPort: 8000
   selector:

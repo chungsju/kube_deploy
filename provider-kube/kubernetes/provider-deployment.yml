@@ -3,8 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fabric8.io/git-commit: bb3deec86887d69cbf72ce7519974c07a2b1a706
-    fabric8.io/git-branch: bb3deec86887d69cbf72ce7519974c07a2b1a706
+    fabric8.io/git-commit: 5051addc111ab5e680cdf653fbec41caad014b47
+    fabric8.io/git-branch: 5051addc111ab5e680cdf653fbec41caad014b47
     fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
   labels:
     app: Provider.application
@@ -24,8 +24,8 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: bb3deec86887d69cbf72ce7519974c07a2b1a706
-        fabric8.io/git-branch: bb3deec86887d69cbf72ce7519974c07a2b1a706
+        fabric8.io/git-commit: 5051addc111ab5e680cdf653fbec41caad014b47
+        fabric8.io/git-branch: 5051addc111ab5e680cdf653fbec41caad014b47
         fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
       labels:
         container: provider
@@ -39,13 +39,15 @@ spec:
     spec:
       containers:
       - env:
+        - name: BW_APP_MONITORING_CONFIG
+          value: '{"url":"http://bwce-mon-svc:8080"}'
+        - name: PROVIDER_PORT
+          value: "8000"
         - name: APP_CONFIG_PROFILE
           value: docker
         - name: BW_PROFILE
           value: Docker
-        - name: PROVIDER_PORT
-          value: "8000"
-        image: chungsju/provider
+        image: chungsju/provider:1.0.0-SNAPSHOT
         imagePullPolicy: Always
         name: provider
         ports:
