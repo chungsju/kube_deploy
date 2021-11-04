@@ -48,7 +48,7 @@ pipeline {
                        sh "git commit -m jenkins_build"
                        withCredentials([usernamePassword(credentialsId: '4172501e-c084-43bf-bff5-0dac2d1077d1', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
    
-						    sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/chungsju/kube_deploy.git HEAD:master')
+						    sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/chungsju/kube_deploy.git HEAD:main')
 						}
              //ghp_mpktfpXDRJN/*이건 패스워드*/ZFOuD95w35PyjNL0U3x1QHEGF
             }
