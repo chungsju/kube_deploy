@@ -3,8 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fabric8.io/git-commit: c79b4b0365db38973b87081d3e4896a70511bb23
-    fabric8.io/git-branch: c79b4b0365db38973b87081d3e4896a70511bb23
+    fabric8.io/git-commit: 8cddbc88cbf2f89d89e46b9f0c83ce7aac5d1a8c
+    fabric8.io/git-branch: 8cddbc88cbf2f89d89e46b9f0c83ce7aac5d1a8c
     fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
   labels:
     app: Provider.application
@@ -24,8 +24,8 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: c79b4b0365db38973b87081d3e4896a70511bb23
-        fabric8.io/git-branch: c79b4b0365db38973b87081d3e4896a70511bb23
+        fabric8.io/git-commit: 8cddbc88cbf2f89d89e46b9f0c83ce7aac5d1a8c
+        fabric8.io/git-branch: 8cddbc88cbf2f89d89e46b9f0c83ce7aac5d1a8c
         fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
       labels:
         container: provider
@@ -39,8 +39,6 @@ spec:
     spec:
       containers:
       - env:
-        - name: BW_APP_MONITORING_CONFIG
-          value: '{"url":"http://bwce-mon-svc:8080"}'
         - name: PROVIDER_PORT
           value: "8000"
         - name: APP_CONFIG_PROFILE
