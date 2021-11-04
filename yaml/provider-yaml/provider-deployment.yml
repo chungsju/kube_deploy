@@ -3,8 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fabric8.io/git-commit: 57092de897eb90110f9378d2ba2ab3aaee35a78c
-    fabric8.io/git-branch: 57092de897eb90110f9378d2ba2ab3aaee35a78c
+    fabric8.io/git-commit: 5fadc256e77312a1eb8fc56959a274e4dce38de6
+    fabric8.io/git-branch: 5fadc256e77312a1eb8fc56959a274e4dce38de6
     fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
   labels:
     app: Provider.application
@@ -14,7 +14,7 @@ metadata:
   name: provider
   namespace: default
 spec:
-  replicas: 4
+  replicas: 2
   revisionHistoryLimit: 2
   selector:
     matchLabels:
@@ -24,8 +24,8 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: 57092de897eb90110f9378d2ba2ab3aaee35a78c
-        fabric8.io/git-branch: 57092de897eb90110f9378d2ba2ab3aaee35a78c
+        fabric8.io/git-commit: 5fadc256e77312a1eb8fc56959a274e4dce38de6
+        fabric8.io/git-branch: 5fadc256e77312a1eb8fc56959a274e4dce38de6
         fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
       labels:
         container: provider
@@ -53,6 +53,6 @@ spec:
           name: irdmi
         resources:
           limits:
-            cpu: 1000m
+            cpu: 500m
           requests:
             cpu: 200m
