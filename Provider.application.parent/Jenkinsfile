@@ -43,6 +43,7 @@ pipeline {
             steps {
                  	   //sh "mvn  initialize fabric8:apply"
                  	   //sh "git clone https://github.com/chungsju/kube_deploy.git /var/jenkins_home/workspace/kube_deploy/.git"
+                 	   sh "git config pull.rebase false"
                  	   sh "git pull https://github.com/chungsju/kube_deploy.git HEAD:main"
                        sh "git add -f Provider.application/target/classes/META-INF/fabric8/kubernetes/"
                        sh "git config --global user.email 'chungsju@gmail.com'"
