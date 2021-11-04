@@ -1,0 +1,59 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    fabric8.io/git-commit: aeb3594d95884c8c750a380a82fa8d9c765f962f
+    fabric8.io/git-branch: aeb3594d95884c8c750a380a82fa8d9c765f962f
+    fabric8.io/git-url: https://github.com/chungsju/Consumer_CICD.git
+  labels:
+    app: Consumer.application
+    provider: fabric8
+    version: 1.0.0
+    group: com.tibco.bw
+  name: consumer
+  namespace: default
+spec:
+  replicas: 1
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: Consumer.application
+      provider: fabric8
+      group: com.tibco.bw
+  template:
+    metadata:
+      annotations:
+        fabric8.io/git-commit: aeb3594d95884c8c750a380a82fa8d9c765f962f
+        fabric8.io/git-branch: aeb3594d95884c8c750a380a82fa8d9c765f962f
+        fabric8.io/git-url: https://github.com/chungsju/Consumer_CICD.git
+      labels:
+        container: consumer
+        project: consumer
+        app: Consumer.application
+        provider: fabric8
+        version: 1.0.0
+        group: com.tibco.bw
+      name: consumer
+      namespace: default
+    spec:
+      containers:
+      - env:
+        - name: BW_APP_MONITORING_CONFIG
+          value: '{"url":"http://bwce-mon-svc:8080"}'
+        - name: PROVIDER_PORT
+          value: "8000"
+        - name: APP_CONFIG_PROFILE
+          value: docker
+        - name: CONSUMER_PORT
+          value: "7000"
+        - name: PROVIDER_HOST
+          value: provider-svc
+        - name: BW_PROFILE
+          value: Docker
+        image: chungsju/consumer:1.0.0
+        imagePullPolicy: Always
+        name: consumer
+        ports:
+        - containerPort: 7000
+          name: afs3-fileserver
