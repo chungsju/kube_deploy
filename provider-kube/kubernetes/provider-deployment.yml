@@ -3,8 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fabric8.io/git-commit: 4a6ad52fab42c37249a26017c24269f57fa2fc63
-    fabric8.io/git-branch: 4a6ad52fab42c37249a26017c24269f57fa2fc63
+    fabric8.io/git-commit: e0f43dbcf96a373448507d358c0df05cb36dc7e7
+    fabric8.io/git-branch: e0f43dbcf96a373448507d358c0df05cb36dc7e7
     fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
   labels:
     app: Provider.application
@@ -24,8 +24,8 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: 4a6ad52fab42c37249a26017c24269f57fa2fc63
-        fabric8.io/git-branch: 4a6ad52fab42c37249a26017c24269f57fa2fc63
+        fabric8.io/git-commit: e0f43dbcf96a373448507d358c0df05cb36dc7e7
+        fabric8.io/git-branch: e0f43dbcf96a373448507d358c0df05cb36dc7e7
         fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
       labels:
         container: provider
