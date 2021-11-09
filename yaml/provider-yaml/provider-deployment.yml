@@ -3,8 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fabric8.io/git-commit: 5fadc256e77312a1eb8fc56959a274e4dce38de6
-    fabric8.io/git-branch: 5fadc256e77312a1eb8fc56959a274e4dce38de6
+    fabric8.io/git-commit: 947400842c133649d59a552a72a5cd7c09b36f00
+    fabric8.io/git-branch: 947400842c133649d59a552a72a5cd7c09b36f00
     fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
   labels:
     app: Provider.application
@@ -24,8 +24,8 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: 5fadc256e77312a1eb8fc56959a274e4dce38de6
-        fabric8.io/git-branch: 5fadc256e77312a1eb8fc56959a274e4dce38de6
+        fabric8.io/git-commit: 947400842c133649d59a552a72a5cd7c09b36f00
+        fabric8.io/git-branch: 947400842c133649d59a552a72a5cd7c09b36f00
         fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
       labels:
         container: provider
@@ -47,6 +47,7 @@ spec:
           value: Docker
         image: chungsju/provider:1.7.0
         imagePullPolicy: Always
+        livenessProbe: {}
         name: provider
         ports:
         - containerPort: 8000
