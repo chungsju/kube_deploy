@@ -3,8 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fabric8.io/git-commit: 947400842c133649d59a552a72a5cd7c09b36f00
-    fabric8.io/git-branch: 947400842c133649d59a552a72a5cd7c09b36f00
+    fabric8.io/git-commit: 468073d597aa7e550d9e33ac33906d5e66b3a766
+    fabric8.io/git-branch: 468073d597aa7e550d9e33ac33906d5e66b3a766
     fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
   labels:
     app: Provider.application
@@ -24,8 +24,8 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: 947400842c133649d59a552a72a5cd7c09b36f00
-        fabric8.io/git-branch: 947400842c133649d59a552a72a5cd7c09b36f00
+        fabric8.io/git-commit: 468073d597aa7e550d9e33ac33906d5e66b3a766
+        fabric8.io/git-branch: 468073d597aa7e550d9e33ac33906d5e66b3a766
         fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
       labels:
         container: provider
@@ -47,11 +47,14 @@ spec:
           value: Docker
         image: chungsju/provider:1.7.0
         imagePullPolicy: Always
-        livenessProbe: {}
         name: provider
         ports:
         - containerPort: 8000
           name: irdmi
+        readinessProbe:
+          httpGet:
+            path: /provider
+            port: 8000
         resources:
           limits:
             cpu: 500m
