@@ -3,13 +3,13 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fabric8.io/git-commit: 1ba7839a46fe170361651323b7f44db75e4b3e50
-    fabric8.io/git-branch: 1ba7839a46fe170361651323b7f44db75e4b3e50
+    fabric8.io/git-commit: b6b4ff7ab41863e2809f04469f2e28ba41ca5c55
+    fabric8.io/git-branch: b6b4ff7ab41863e2809f04469f2e28ba41ca5c55
     fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
   labels:
     app: Provider.application
     provider: fabric8
-    version: 1.9.0
+    version: 2.0.0
     group: com.tibco.bw
   name: provider
   namespace: default
@@ -24,15 +24,15 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: 1ba7839a46fe170361651323b7f44db75e4b3e50
-        fabric8.io/git-branch: 1ba7839a46fe170361651323b7f44db75e4b3e50
+        fabric8.io/git-commit: b6b4ff7ab41863e2809f04469f2e28ba41ca5c55
+        fabric8.io/git-branch: b6b4ff7ab41863e2809f04469f2e28ba41ca5c55
         fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
       labels:
         container: provider
         project: provider
         app: Provider.application
         provider: fabric8
-        version: 1.9.0
+        version: 2.0.0
         group: com.tibco.bw
       name: provider
       namespace: default
@@ -45,7 +45,7 @@ spec:
           value: docker
         - name: BW_PROFILE
           value: Docker
-        image: chungsju/provider:1.9.0
+        image: chungsju/provider:2.0.0
         imagePullPolicy: Always
         name: provider
         ports:

@@ -3,8 +3,8 @@ apiVersion: v1
 kind: Service
 metadata:
   annotations:
-    fabric8.io/git-commit: 1ba7839a46fe170361651323b7f44db75e4b3e50
-    fabric8.io/git-branch: 1ba7839a46fe170361651323b7f44db75e4b3e50
+    fabric8.io/git-commit: b6b4ff7ab41863e2809f04469f2e28ba41ca5c55
+    fabric8.io/git-branch: b6b4ff7ab41863e2809f04469f2e28ba41ca5c55
     fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
   labels:
     container: provider
@@ -12,7 +12,7 @@ metadata:
     project: provider
     group: com.tibco.bw
     app: Provider.application
-    version: 1.9.0
+    version: 2.0.0
   name: provider-svc
   namespace: default
 spec:
