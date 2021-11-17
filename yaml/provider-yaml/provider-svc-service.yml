@@ -3,8 +3,8 @@ apiVersion: v1
 kind: Service
 metadata:
   annotations:
-    fabric8.io/git-commit: 23abe9558f73886a8b35e1fd0c0d555d67babed8
-    fabric8.io/git-branch: 23abe9558f73886a8b35e1fd0c0d555d67babed8
+    fabric8.io/git-commit: 1ba7839a46fe170361651323b7f44db75e4b3e50
+    fabric8.io/git-branch: 1ba7839a46fe170361651323b7f44db75e4b3e50
     fabric8.io/git-url: https://github.com/chungsju/Provider_CICD.git
   labels:
     container: provider
